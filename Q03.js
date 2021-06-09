@@ -4,9 +4,9 @@ function main(){
     const avaliaçao_1 = Number(prompt('valor da primeira avaliação: '))
     const avaliação_2 = Number(prompt('Valor da segunda avaliação: '))
     const avaliaçao_3 = Number(prompt('Valor da terceira avaliação: '))
-    const peso_1 = Number(prompt('Valor do peso 1: 10% '))
-    const peso_2 = Number(prompt('Valor do peso 2: 20% '))
-    const peso_3 = Number(prompt('Valor do peso 3: 30%'))
+    const peso_1 = Number(prompt('Valor do peso 1: 0,1 '))
+    const peso_2 = Number(prompt('Valor do peso 2: 0,2 '))
+    const peso_3 = Number(prompt('Valor do peso 3: 0,3'))
 
     const notas = (avaliaçao_1 * peso_2) + (avaliação_2 * peso_3) + (avaliaçao_3 * peso_1)
     const pesos = peso_1 + peso_2 + peso_3
